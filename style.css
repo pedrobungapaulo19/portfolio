@@ -85,3 +85,19 @@ footer {
 .post p {
   color: #555;
 }
+.iframe-container {
+  position: relative;
+  width: 100%;
+  max-width: 640px; /* largura máxima no PC */
+  margin: 0 auto; /* centraliza */
+  padding-top: 125%; /* altura proporcional (depende da altura do iframe) */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

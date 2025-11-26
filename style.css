@@ -26,33 +26,14 @@ section {
   border-left: 5px solid #007bff;
 }
 
-#projects a{
-    text-decoraction: none;
-    color: #007bff;
+#projects a {
+  text-decoration: none;
+  color: #007bff;
 }
 
 a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-
-form input, form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: 0.7rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 0.7rem 1.2rem;
-  cursor: pointer;
-  border-radius: 5px;
+  text-decoration: none;
+  color: #007bff;
 }
 
 footer {
@@ -61,6 +42,7 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
+
 .foto-perfil {
   width: 150px;
   height: 150px;
@@ -71,16 +53,10 @@ footer {
   background: white;
 }
 
-
 #blog {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
-}
-
-#blog h2 {
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .post {
@@ -97,15 +73,6 @@ footer {
   color: #555;
 }
 
-
-#contact img{
-    width: 10%;
-    border: 10px;
-    justify-content: center;
-}
-
-
-
 .container-links {
   text-align: center;
   padding: 30px 20px;
@@ -116,23 +83,34 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.container-links h2 {
-  margin-bottom: 20px;
-  color: #333;
-  font-size: 24px;
-}
-
-.container-links a {
-  margin: 0 10px;
-  transition: transform 0.3s ease;
-}
-
-.container-links a:hover {
-  transform: scale(1.1);
-}
-
 .container-links img {
   width: 60px;
   height: 60px;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.container-links a:hover img {
+  transform: scale(1.1);
+}
+
+/* Botão flutuante estilo WhatsApp */
+.btn-quiz {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.btn-quiz:hover {
+  transform: scale(1.1);
+  background: #20b954;
 }
